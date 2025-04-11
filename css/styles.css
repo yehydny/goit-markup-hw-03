@@ -1,0 +1,251 @@
+/* baze styles */
+:root {
+  /* fonts */
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+
+  /* colors */
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--slate);
+  background-color: var(--white);
+}
+
+/* ------------------------------ */
+
+/* links without underline */
+a {
+  text-decoration: none;
+}
+/* ------------------------------ */
+
+ul {
+  list-style: none;
+}
+
+/* h3  */
+h3 {
+  font-family: var(--font-family);
+
+  font-weight: 500;
+  font-size: 20px;
+
+  /* line-height: 24px; */
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+/* p  */
+
+p {
+  font-family: var(--font-family);
+
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.class-h-second {
+  font-family: var(--font-family);
+
+  font-weight: 700;
+  font-size: 36px;
+
+  /* line-height: 40px; */
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* logo in nav*/
+.logo {
+  font-family: var(--second-family);
+
+  font-weight: 700;
+  font-size: 18px;
+
+  /* line-height: 21px; */
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.logo span {
+  color: var(--navy-blue);
+}
+
+/* logo in footer*/
+.logo-footer {
+  font-family: var(--second-family);
+
+  font-weight: 700;
+  font-size: 18px;
+
+  /* line-height: 21px; */
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.logo-second-color-footer {
+  color: var(--cloud);
+}
+
+.footer-paragraph {
+  color: var(--cloud);
+}
+
+/* navigation tab in nav */
+.header-navigation {
+  font-family: var(--font-family);
+
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.header-navigation:hover,
+.header-navigation:focus {
+  color: var(--ocean);
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+  color: var(--ocean);
+}
+/* ------------------------------ */
+
+/* address in nav */
+.header-address {
+  font-style: normal;
+}
+
+.header-address-link {
+  font-family: var(--font-family);
+
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+/* ------------------------------ */
+
+.title-section {
+  background: var(--navy-blue);
+}
+
+/* page title (h1) */
+.page-title {
+  font-family: var(--font-family);
+
+  font-weight: 700;
+  font-size: 56px;
+
+  /* line-height: 60px; */
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+
+/* title section button */
+.order-button {
+  font-family: var(--font-family);
+
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+
+  background: var(--iris);
+
+  cursor: pointer;
+}
+
+.order-button:hover,
+.order-button:focus {
+  background-color: var(--ocean);
+}
+/* ------------------------------ */
+
+/* advantages section settings */
+/* h2 (is hidden with white color) */
+.class-h2-advantages {
+  color: var(--white);
+}
+/* ------------------------------ */
+
+/* advantages section  */
+.paragraph {
+  font-family: var(--font-family);
+
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.class-h-three {
+  font-family: var(--font-family);
+
+  font-weight: 500;
+  font-size: 20px;
+
+  /* line-height: 24px; */
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+/* ------------------------------ */
+
+/* our team section */
+.our-team-section {
+  background: var(--cloud);
+}
+
+.our-team-section-list {
+  background-color: var(--white);
+}
+/* ------------------------------ */
+
+/* footer  */
+.footer {
+  background-color: var(--navy-blue);
+}
