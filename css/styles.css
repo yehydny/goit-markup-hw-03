@@ -49,6 +49,10 @@ ul {
   padding-left: 0;
 }
 
+img {
+  display: block;
+}
+
 /* h3  */
 h3 {
   font-family: var(--font-family);
