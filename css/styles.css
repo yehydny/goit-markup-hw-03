@@ -25,6 +25,8 @@ body {
   background-color: var(--white);
 }
 
+/* reset  */
+
 h1,
 h2,
 h3,
@@ -46,18 +48,48 @@ a {
 ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding-left: 0;
 }
 
 img {
   display: block;
 }
 
-/* стилі контейнеру */
+/* common styles */
 .container {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+/* header styles */
+.header {
+  border-bottom: 1px solid var(--cornflower);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.contacts-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
 }
 
 /* h3  */
@@ -145,6 +177,8 @@ p {
 /* navigation tab in nav */
 .header-navigation {
   font-family: var(--font-family);
+  padding: 24px 0;
+  display: block;
 
   font-weight: 500;
   font-size: 16px;
@@ -169,6 +203,7 @@ p {
 /* address in nav */
 .header-address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .header-address-link {
@@ -176,6 +211,8 @@ p {
 
   font-weight: 400;
   font-size: 16px;
+  padding: 24px 0;
+  display: block;
 
   /* line-height: 24px; */
   line-height: 1.5;
