@@ -331,4 +331,5 @@ p {
 /* footer  */
 .footer {
   background-color: var(--navy-blue);
+  padding: 100px 0;
 }
