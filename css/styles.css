@@ -92,6 +92,17 @@ img {
   margin-right: 76px;
 }
 
+/* footer styles  */
+.footer-container {
+  display: block;
+  padding: 100px 0;
+}
+
+.paragraph-footer-container {
+  width: 264px;
+  margin-top: 16px;
+}
+
 /* h3  */
 h3 {
   font-family: var(--font-family);
