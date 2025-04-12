@@ -98,6 +98,28 @@ img {
   padding: 188px 0;
 }
 
+/* advantages section styles  */
+.advantages-section {
+  padding: 120px 0;
+}
+
+.advantages-list-items {
+  display: flex;
+  gap: 24px;
+}
+
+.advanced-container {
+  padding: 0;
+}
+
+.paragraph-styles {
+  margin-top: 8px;
+}
+
+.advantages-section-list {
+  width: calc((100% - 72px) / 4);
+}
+
 /* footer styles  */
 .footer-container {
   /* display: block; */
