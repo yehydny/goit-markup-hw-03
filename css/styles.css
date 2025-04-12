@@ -238,7 +238,7 @@ p {
 
 .title-section {
   background: var(--navy-blue);
-  padding: 188px 316px;
+  padding: 188px 0;
 }
 
 /* page title (h1) */
