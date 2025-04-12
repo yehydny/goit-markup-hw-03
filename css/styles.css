@@ -98,6 +98,14 @@ img {
   padding: 188px 0;
 }
 
+.page-title-section {
+  max-width: 496px;
+}
+
+.order-button {
+  min-width: 169px;
+}
+
 /* advantages section styles  */
 .advantages-section {
   padding: 120px 0;
@@ -114,12 +122,8 @@ img {
   width: 100%;
 }
 
-.paragraph-styles {
-  margin-top: 8px;
-}
-
-.advantages-section-list {
-  width: 100%;
+.pclass-h-three {
+  margin-bottom: 8px;
 }
 
 /* footer styles  */
