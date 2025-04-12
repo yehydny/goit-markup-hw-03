@@ -223,6 +223,7 @@ p {
 
 .title-section {
   background: var(--navy-blue);
+  padding: 188px 316px;
 }
 
 /* page title (h1) */
@@ -254,6 +255,13 @@ p {
   background: var(--iris);
 
   cursor: pointer;
+
+  border-radius: 4px;
+  padding: 16px 32px;
+  border: none;
+
+  margin: 48px auto 0;
+  display: block;
 }
 
 .order-button:hover,
