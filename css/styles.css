@@ -119,11 +119,14 @@ img {
 .advanced-container {
   padding-left: 0;
   padding-right: 0;
-  width: 100%;
 }
 
-.pclass-h-three {
+.class-h-three {
   margin-bottom: 8px;
+}
+
+.advantages-section-list {
+  width: calc((100% - 72px) / 4);
 }
 
 /* footer styles  */
