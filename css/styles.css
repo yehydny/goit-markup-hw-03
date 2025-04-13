@@ -92,6 +92,19 @@ img {
   margin-right: 76px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* first section styles  */
 .hero-section {
   background: var(--navy-blue);
@@ -100,6 +113,7 @@ img {
 
 .page-title-section {
   max-width: 496px;
+  margin: 0 auto;
 }
 
 .order-button {
